@@ -17,6 +17,7 @@ Please add HTML code like below.<br>
   <button id="button1">ボタン1</button> <!-- please set id "button2"-->
   ...
 </body>
+...
 ```
 Id "button1" is related to button1 count.<br>
 Id "button2" is related to button2 count.<br>
