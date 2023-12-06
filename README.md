@@ -1,5 +1,5 @@
 # APG-Progect
-Send the number of count each button click to Firebase with to_database.js.
+Send the number of count each button click to Firebase with "to_database.js".
 
 # How to use?
 You set "to_database.js" in the directory inculding HTML file.<br>
