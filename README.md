@@ -13,8 +13,8 @@ Please add HTML code like below.<br>
 </head>
 <body>
   ...
-  <button id="button1">ボタン1</button> <!-- please set id "button1"-->
-  <button id="button1">ボタン1</button> <!-- please set id "button2"-->
+  <button id="button1">button1</button> <!-- please set id "button1"-->
+  <button id="button2">button2</button> <!-- please set id "button2"-->
   ...
 </body>
 ...
