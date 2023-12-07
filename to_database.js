@@ -3,8 +3,8 @@ const database_name = "test";
 const interval = 10000; // in milliseconds
 
 // Do not change code below
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
-import { getFirestore, serverTimestamp, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { initializeApp } from "/firebase_app.js";
+import { getFirestore, serverTimestamp, collection, addDoc } from "/firebase_firestore.js";
 // Initialize Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyDpBOrJoi8aLeF6qCwuNJ8fBZfAJ-fydFc",
