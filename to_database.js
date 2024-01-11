@@ -1,5 +1,5 @@
 // other variables
-const database_name = "test";
+const database_name = "click_count_debug";
 const interval = 10000; // in milliseconds
 
 // Do not change code below
