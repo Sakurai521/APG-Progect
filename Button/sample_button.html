@@ -36,33 +36,17 @@
             background-color: #2980b9;
         }
     </style>
+    <script src="ButtonClick.js"></script>
     <script type="module" src="to_database.js"></script>
     <script src="https://extension-files.twitch.tv/helper/v1/twitch-ext.min.js"></script>
 </head>
 
 <body>
     <table>
-        <td><button id="button1" class="red">button1</button></td>
-        <td><button id="button2" class="blue">button2</button></td>
+        <td><button id="button1" class="red">AI1</button></td>
+        <td><button id="button2" class="blue">AI2</button></td>
     </table>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const buttons = document.querySelectorAll("button");
-
-            buttons.forEach(button => {
-                button.addEventListener("click", function () {
-                    if (!button.classList.contains("clicked")) {
-                        button.classList.add("clicked");
-
-                        setTimeout(function () {
-                            button.classList.remove("clicked");
-                        }, 1000);
-                    }
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>

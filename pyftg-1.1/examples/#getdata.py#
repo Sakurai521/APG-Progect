@@ -1,0 +1,19 @@
+Import firebase_admin
+from firebase_admin import firestore
+from firebase_admin import credentials
+
+def main():
+    #認証キーの設定とfirebaseへの接続
+    JSON_PATH = 'apg-project-6e243-firebase-adminsdk-npc8j-bce3fb0771.json' #認証キーのパス
+    cred = credentials.Certificate(JSON_PATH) #認証キーを取得
+    firebase_admin.initialize_app(cred) #認証キーでfirebaseに接続
+    db = firestore.client() #データベースの取得
+
+    #データの取得
+    docs = db.collection('click_count_debug').get() #db.collection().get()でデータベース内の全データをlistで取得
+    for doc in docs:
+        #doc.to_dict()で各データを辞書型で取得できる
+        print(doc.to_dict()) 
+
+if __name__ == '__main__':
+    main()
